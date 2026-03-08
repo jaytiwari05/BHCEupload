@@ -36,6 +36,9 @@ source ~/.zshrc
 ```
 bloodhound-ce-python -c All -u <user> <auth> -d <domain> -ns <ip> --zip && BHCEupload.py -dir $(ls -t *_bloodhound.zip | head -n1) -tokenid $BH_TOKEN_ID -tokenkey $BH_TOKEN_KEY -url http://127.0.0.1:8080
 ```
+<img width="1301" height="818" alt="bonuss" src="https://github.com/user-attachments/assets/ea3e8e4f-74bf-4418-9438-2e3aac210f65" />
+
+
 
 ## Usage
 
