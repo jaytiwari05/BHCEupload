@@ -40,15 +40,18 @@ You can use the tool globally once the above installation is complete by referen
 ```bash
 BHCEupload.py -tokenid $BH_TOKEN_ID -tokenkey $BH_TOKEN_KEY -delete -dir /path/to/data.zip
 ```
-
-**Upload an entire directory to Bloodhound CE:**
-```bash
-BHCEupload.py -tokenid $BH_TOKEN_ID -tokenkey $BH_TOKEN_KEY -dir /path/to/results/
-```
+<img width="1069" height="346" alt="BHCEupload-dir" src="https://github.com/user-attachments/assets/5e1545b1-bb85-4fe7-b153-7ee76ea60b43" />
 
 **Clear the database without uploading any files:**
 ```bash
 BHCEupload.py -tokenid $BH_TOKEN_ID -tokenkey $BH_TOKEN_KEY -delete
+```
+<img width="819" height="320" alt="BHCEupload-delete" src="https://github.com/user-attachments/assets/c73f2429-4f11-4165-9522-0ff72ca36a62" />
+
+
+**Upload an entire directory to Bloodhound CE:**
+```bash
+BHCEupload.py -tokenid $BH_TOKEN_ID -tokenkey $BH_TOKEN_KEY -dir /path/to/results/
 ```
 
 > **Note:** The default target URL is `http://localhost:8080`. If your Bloodhound CE instance is hosted elsewhere, use the `-url` flag to specify the correct endpoint.
