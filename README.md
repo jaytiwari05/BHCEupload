@@ -17,6 +17,7 @@ You can set up a global symlink and configure your credentials via `.zshrc` expo
 ```
 git clone https://github.com/jaytiwari05/BHCEupload.git
 cd BHCEupload
+pip install -r requirements.txt
 ```
 
 2. Create a symlink to the script:
