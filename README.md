@@ -38,7 +38,7 @@ You can use the tool globally once the above installation is complete by referen
 
 **Clear the database and upload a file:**
 ```bash
-BHCEupload.py -tokenid $BH_TOKEN_ID -tokenkey $BH_TOKEN_KEY -delete -dir /path/to/data.zip
+BHCEupload.py -tokenid $BH_TOKEN_ID -tokenkey $BH_TOKEN_KEY -dir /path/to/data.zip
 ```
 <img width="1069" height="346" alt="BHCEupload-dir" src="https://github.com/user-attachments/assets/5e1545b1-bb85-4fe7-b153-7ee76ea60b43" />
 
