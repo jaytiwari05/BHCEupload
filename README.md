@@ -40,14 +40,14 @@ You can use the tool globally once the above installation is complete by referen
 ```bash
 BHCEupload.py -tokenid $BH_TOKEN_ID -tokenkey $BH_TOKEN_KEY -dir /path/to/data.zip
 ```
-<img width="1069" height="346" alt="BHCEupload-dir" src="https://github.com/user-attachments/assets/5e1545b1-bb85-4fe7-b153-7ee76ea60b43" />
+<img width="973" height="418" alt="new-upload" src="https://github.com/user-attachments/assets/b1f8839b-05dc-4c5d-bb8a-84e954c04108" />
+
 
 **Clear the database without uploading any files:**
 ```bash
 BHCEupload.py -tokenid $BH_TOKEN_ID -tokenkey $BH_TOKEN_KEY -delete
 ```
-<img width="819" height="320" alt="BHCEupload-delete" src="https://github.com/user-attachments/assets/c73f2429-4f11-4165-9522-0ff72ca36a62" />
-
+<img width="803" height="430" alt="new-delete" src="https://github.com/user-attachments/assets/e40fd88f-c924-4c5d-a16d-a19d3dbba19f" />
 
 **Upload an entire directory to Bloodhound CE:**
 ```bash
