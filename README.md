@@ -32,6 +32,11 @@ echo 'export BH_TOKEN_KEY=Your_Token_Key' >> ~/.zshrc
 source ~/.zshrc
 ```
 
+4. Bonus One-Linear [Aliasr]
+```
+bloodhound-ce-python -c All -u <user> <auth> -d <domain> -ns <ip> --zip && BHCEupload.py -dir $(ls -t *_bloodhound.zip | head -n1) -tokenid $BH_TOKEN_ID -tokenkey $BH_TOKEN_KEY -url http://127.0.0.1:8080
+```
+
 ## Usage
 
 You can use the tool globally once the above installation is complete by referencing `$BH_TOKEN_ID` and `$BH_TOKEN_KEY`.
